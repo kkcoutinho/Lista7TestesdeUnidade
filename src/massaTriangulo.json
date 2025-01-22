@@ -1,0 +1,28 @@
+[
+   {
+     "base": 5,
+     "altura": 8,
+     "resultadoEsperado": 20
+   },
+   {
+     "base": 6,
+     "altura": 3,
+     "resultadoEsperado": 9
+   },
+   {
+     "base": 7,
+     "altura": 4,
+     "resultadoEsperado": 14
+   },
+   {
+     "base": 9,
+     "altura": 4,
+     "resultadoEsperado": 18
+   },
+   {
+     "base": 7,
+     "altura": 7,
+     "resultadoEsperado": 24.5
+   }
+ ]
+ 
