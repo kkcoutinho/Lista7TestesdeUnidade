@@ -1,6 +1,7 @@
 const funcoes = require('../src/funcoes')
 //Arrange - configura:
 const massa = require('..//fixtures/massaTriangulo')
+
 // Teste da área do triângulo
 test('testeTrianguloMassa', () => {
   const base = 8;
