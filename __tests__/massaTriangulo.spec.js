@@ -1,6 +1,6 @@
-const funcoes = require('../src/funcoes')
+const funcoes = require('..//src//funcoes')
 //Arrange - configura:
-const massa = require('..//fixtures/massaTriangulo')
+const massa = require('..//src//massaTriangulo.json')
 
 // Teste da área do triângulo
 test('testeTrianguloMassa', () => {
@@ -14,7 +14,7 @@ test('testeTrianguloMassa', () => {
 });
 
 // Testes com dados do arquivo JSON
-const dadosTriangulos = obterDados();
+const dadosTriangulos = massa;
 
 dadosTriangulos.forEach((dado, index) => {
   test(`Triangulo ${index + 1}`, () => {

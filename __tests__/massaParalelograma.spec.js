@@ -8,7 +8,7 @@ test.each(massa.array.map(bloco => [
     bloco.esperado]))
     ('multiplicar %f * %f com massa', (base, altura, esperado) => {
        //Executa
-       const  resultadoObtido = funcoes.areaTriangulo(base, altura)
+       const  resultadoObtido = funcoes.areaParalelograma(base, altura)
        // Valida
        expect(resultadoObtido).toBe(esperado)
     })
